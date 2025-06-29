@@ -11,6 +11,6 @@ public class Exemplo {
 
     public static void main(String[] args) {
         sayHelloManyTimes(6);  // chamada atual
-        sayHelloManyTimes(3);  // exemplo com outro valor
+        sayHelloManyTimes(5);  // exemplo com outro valor
     }
 }
