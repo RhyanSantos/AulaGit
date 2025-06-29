@@ -1,6 +1,6 @@
 public class Exemplo {
-    private static void sayHelloManyTime(int time) {
-        for (int i = 0; i < time; i++) {
+    private static void sayHelloManyTimes(int times) {
+        for (int i = 0; i < times; i++) {
             sayHello();
         }
     }
@@ -9,6 +9,6 @@ public class Exemplo {
     }
 
     public static void main(String[] args) {
-        sayHelloManyTime(5);
+        sayHelloManyTimes(6);
     }
 }
