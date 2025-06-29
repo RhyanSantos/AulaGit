@@ -4,11 +4,13 @@ public class Exemplo {
             sayHello();
         }
     }
+
     private static void sayHello() {
         System.out.println("Ola Mundo!");
     }
 
     public static void main(String[] args) {
-        sayHelloManyTimes(6);
+        sayHelloManyTimes(6);  // chamada atual
+        sayHelloManyTimes(3);  // exemplo com outro valor
     }
 }
